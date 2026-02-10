@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>SOCIAL PRO AGENCY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        body {
+            background: radial-gradient(circle at top, #0f172a, #000);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.2rem;
+            background: linear-gradient(90deg, #8b5cf6, #22d3ee);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .hero p {
+            margin: 20px 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .btn-main {
+            padding: 14px 35px;
+            border-radius: 50px;
+            background: linear-gradient(90deg, #8b5cf6, #22d3ee);
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn-main:hover {
+            transform: scale(1.05);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 2.2rem;
+        }
+
+        .services {
+            padding: 80px 5%;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 30px;
+        }
+
+        .service-card {
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(12px);
+            padding: 30px;
+            border-radius: 20px;
+            transition: 0.4s;
+            transform-style: preserve-3d;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px) rotateX(5deg);
+            box-shadow: 0 0 25px rgba(139,92,246,0.4);
+        }
+
+        .service-card h3 {
+            margin-bottom: 15px;
+        }
+
+        .service-card span {
+            display: block;
+            margin: 15px 0;
+            color: #22d3ee;
+        }
+
+        .service-card a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #000;
+            background: #22d3ee;
+            padding: 8px 20px;
+            border-radius: 30px;
+        }
+
+        .register {
+            padding: 80px 5%;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        form input, form select, form textarea {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 12px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        form button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(90deg, #8b5cf6, #22d3ee);
+            border: none;
+            border-radius: 40px;
+            font-weight: bold;
+        }
+
+        .social {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .social a {
+            color: #22d3ee;
+            font-size: 1.8rem;
+            margin: 0 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #000;
+        }
+
+        .whatsapp-btn {
+            display: inline-block;
+            margin-top: 10px;
+            color: #25D366;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>SOCIAL PRO AGENCY</h1>
+        <p>بنكبر البيزنس بتاعك وبنطلع البراند بتاعك للنور على السوشيال ميديا</p>
+        <a href="https://wa.me/201123308826" target="_blank" class="btn-main">
+            اطلب خدمتك الآن
+        </a>
+    </div>
+</section>
+
+<section class="services">
+    <h2 class="section-title">خدماتنا</h2>
+
+    <div class="services-grid">
+        <div class="service-card">
+            <h3>الإعلانات الممولة</h3>
+            <p>إدارة احترافية لحملاتك الإعلانية لتحقيق أعلى نتائج.</p>
+            <span>من 879 ج إلى 4,999 ج</span>
+            <a href="https://wa.me/201123308826" target="_blank">اطلب الخدمة</a>
+        </div>
+
+        <div class="service-card">
+            <h3>ترويج الفيديوهات</h3>
+            <p>نوصّل فيديوهاتك لأكبر عدد مشاهدات.</p>
+            <span>من 699 ج إلى 89,999 ج</span>
+            <a href="https://wa.me/201123308826" target="_blank">اطلب الخدمة</a>
+        </div>
+
+        <div class="service-card">
+            <h3>زيادة المتابعين</h3>
+            <p>متابعين حقيقيين لرفع الثقة.</p>
+            <span>من 800 ج إلى 99,999 ج</span>
+            <a href="https://wa.me/201123308826" target="_blank">اطلب الخدمة</a>
+        </div>
+
+        <div class="service-card">
+            <h3>تصميم لوجو احترافي</h3>
+            <p>هوية بصرية قوية لبراندك.</p>
+            <span>من 349 ج إلى 10,999 ج</span>
+            <a href="https://wa.me/201123308826" target="_blank">اطلب الخدمة</a>
+        </div>
+
+        <div class="service-card">
+            <h3>تصميمات سوشيال ميديا</h3>
+            <p>بوستات جذابة واحترافية.</p>
+            <span>من 199 ج إلى 1,199 ج</span>
+            <a href="https://wa.me/201123308826" target="_blank">اطلب الخدمة</a>
+        </div>
+
+        <div class="service-card">
+            <h3>تصميم بوسترات إعلانية</h3>
+            <p>تصميمات قوية للحملات.</p>
+            <span>من 399 ج إلى 899 ج</span>
+            <a href="https://wa.me/201123308826" target="_blank">اطلب الخدمة</a>
+        </div>
+
+        <div class="service-card">
+            <h3>تصميم برزنتيشن احترافي</h3>
+            <p>عروض تقديمية تقفل بيع.</p>
+            <span>من 599 ج إلى 999 ج</span>
+            <a href="https://wa.me/201123308826" target="_blank">اطلب الخدمة</a>
+        </div>
+    </div>
+</section>
+
+<section class="register">
+    <h2 class="section-title">سجل بياناتك</h2>
+
+    <form id="whatsappForm">
+        <input type="text" id="name" placeholder="الاسم بالكامل" required>
+        <input type="tel" id="phone" placeholder="رقم الموبايل" required>
+
+        <select id="service">
+            <option>الإعلانات الممولة</option>
+            <option>ترويج الفيديوهات</option>
+            <option>زيادة المتابعين</option>
+            <option>تصميم لوجو</option>
+            <option>تصميمات سوشيال ميديا</option>
+            <option>بوسترات إعلانية</option>
+            <option>برزنتيشن</option>
+        </select>
+
+        <textarea id="message" placeholder="اكتب تفاصيل طلبك"></textarea>
+        <button type="submit">إرسال الطلب</button>
+    </form>
+</section>
+
+<section class="social">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-tiktok"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+</section>
+
+<footer>
+    <p>SOCIAL PRO AGENCY © 2026</p>
+    <a href="https://wa.me/201123308826" target="_blank" class="whatsapp-btn">تواصل واتساب</a>
+</footer>
+
+<script>
+document.getElementById("whatsappForm").addEventListener("submit", function(e){
+    e.preventDefault();
+
+    let name = document.getElementById("name").value;
+    let phone = document.getElementById("phone").value;
+    let service = document.getElementById("service").value;
+    let message = document.getElementById("message").value;
+
+    let text = `اسم العميل: ${name}%0Aرقم الموبايل: ${phone}%0Aالخدمة: ${service}%0Aالرسالة: ${message}`;
+    let url = `https://wa.me/201123308826?text=${text}`;
+
+    window.open(url, "_blank");
+});
+</script>
+
+</body>
+</html>
